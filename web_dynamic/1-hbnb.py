@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Starts a Flash Web Application """
+""" Script that starts a Flask Web Application """
 from models import storage
 from models.state import State
 from models.city import City
@@ -43,5 +43,4 @@ def hbnb():
 
 
 if __name__ == "__main__":
-    """ Main Function """
     app.run(host='0.0.0.0', port=5000)
